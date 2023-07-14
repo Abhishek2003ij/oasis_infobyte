@@ -1,0 +1,57 @@
+.topbanner{
+  color: white;
+  background: black;
+  text-align: center;
+  top: 0;
+width:100vw;
+height: 200px;
+border-radius: 20px;
+padding: 20px;
+
+
+
+}
+
+.midbanner{
+  flex: stretch;
+  position:static;
+  top:210px;
+  height: 250px;
+  background:white;
+  color: rgb(57, 56, 55);
+  text-decoration: underline;
+  width:100vw;
+  font-size: 30px;
+}
+
+img{
+  position: absolute;
+  top: 179px;
+  height: 350px;
+  right: 10px;
+}
+.bottom{
+  margin: auto;
+  padding: 10px;
+  background:black;
+  position:static;
+  height: 250px;
+  border-radius: 20px;
+  width:100vw;
+  top:500px;
+  color: white;
+  font-size: 20px;
+  box-shadow: 5px 10px white;
+  text-align: center;
+  border-bottom:10px solid white;
+}
+
+.bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 1px;
+  background-color: white;
+}
